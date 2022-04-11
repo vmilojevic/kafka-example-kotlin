@@ -1,0 +1,11 @@
+example:
+  kafka:
+    topic-name: example.topic
+    dlt-topic-name: example.topic.dlt
+    bootstrap-servers: localhost:9092
+    delivery-timeout-ms: 35000
+    schema-registry-url: http://localhost:8081
+    number-of-partitions: 3
+    replication-factor: 1
+    group-id: pshop-example-group-id
+    ssl-enabled: false
