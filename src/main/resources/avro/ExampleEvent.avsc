@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "ExampleEvent",
+  "namespace": "com.example.events",
+  "fields": [
+    {
+      "name": "exampleFieldOne",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "exampleFieldTwo",
+      "type": "string"
+    }
+  ]
+}

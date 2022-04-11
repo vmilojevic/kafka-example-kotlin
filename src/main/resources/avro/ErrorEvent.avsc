@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "ErrorEvent",
+  "namespace": "com.example.events",
+  "fields": [
+    {
+      "name": "errorMessage",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "errorCode",
+      "type": "string"
+    }
+  ]
+}
